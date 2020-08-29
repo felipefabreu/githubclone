@@ -9,9 +9,14 @@ export const Container = styled.div`
 
 
 
-  svg{
-    color: hsla(0,0%,100%);
+  >svg{
+    color: #fff;
     /* color: hsla(0,0%,100%,.7); */
+    cursor: pointer;
+
+    :hover{
+      color: hsla(0,0%,100%,.7);
+    }
     
     font-size: 32px;
     margin: 0 15px;
